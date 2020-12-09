@@ -424,7 +424,7 @@ def test_cosine_analytical(d, allclose):
 
 
 def test_cosine_sample_shape(seed, allclose):
-    """"Tests that CosineSimilarity sample has correct shape."""
+    """ "Tests that CosineSimilarity sample has correct shape."""
     # sampling (n, d) should be the exact same as sampling (n*d,)
     n = 3
     d = 4
